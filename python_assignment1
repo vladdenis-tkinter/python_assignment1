@@ -1,0 +1,21 @@
+1) operators are: *, +, /, -. These operators are indended for manipulation upon data values (numbers, strings). Values are: 6 - integer, -87.8 - negative float number, 
+'hello' - string
+
+2) String is enclosed either by "" or by ''. In this example 'spam' is a string located in some space in RAM. On the other hand spam is the name of variable 
+which points in some space in memory where any data is stored (integer, string and so on)
+
+3) numbers, strings, boolean
+
+4) expression consists of operators (for example *) and operands (variables upon which operands work). The function of expression is to calculate a variable
+
+5) declaration initialize variable by some value for the first time, expression works upon this value and can change it
+
+6) bacon remains the same 22
+
+7) We can add strings to one another and multiply string by integer, so both terms will be 'spamspamspam'
+
+8) Variable name should start with letter (or underscore), not a number, so 100 is invalid variable name
+
+9) float(x) converts value to floating-point number, int(x) - to integer, str(x) - to string
+
+10) The error is about trying to concatenate string and int, firstly we should transform int to string: 'i have eaten ' + str(99) + 'burritos.'
