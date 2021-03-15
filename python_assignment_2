@@ -1,0 +1,37 @@
+1) Boolean types are True and False. Behind the scene True has integer value 1 and False has value 0
+
+2) Boolean operators are: AND, OR, !
+
+3) x | y | AND (has value True if all variables are True)
+   0 | 0 | 0
+   1 | 0 | 0
+   0 | 1 | 0
+   1 | 1 | 1
+   
+   x | y | OR (has value True if one or more variables is True)
+   0 | 0 | 0
+   1 | 0 | 1
+   0 | 1 | 1
+   1 | 1 | 1
+   
+   x | ! (invert the value of variable)
+   1 | 0
+   0 | 1
+   
+   4) (5 > 4) AND (3 == 5) = False
+      not (5 > 4) = False
+      (5 > 4) OR (3 == 5) = True
+      not ((5 > 4) OR (3 == 5)) = False
+      (True AND True) AND (True == False) = False
+      (not False) or (not True) = True
+      
+  5)
+  
+  6) 'equal to' measures if two variables are identical and is typed as '=='. Assignment operator is '=' and assign some value to variable
+  
+  7) condition construction is used when we should do something in case of some condition, for example
+      if (5 > 4):
+         print '5 > 4'
+  
+  8) spam = 0 is assignment operator
+  
