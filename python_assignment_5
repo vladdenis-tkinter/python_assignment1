@@ -1,0 +1,10 @@
+1) dict()
+2)42
+3) In a list value is accessed via it's numeric position whereas in dictionary value is accessed via key, that can be a string, number, Boolean, tuple
+4) In such a case KeyError will be arised
+5) There is no difference, in both cases expression returns True if there is a key 'cat' in dictionary spam
+6) 'cat' in spam returns True if there is key 'cat' in dictionary while 'cat' in spam.values() returns True if there is a value 'cat' in dicitionary
+7) 
+8) we can use function values() of dicitionary:
+    for key in dict:
+        print ("key:", key, ", value:", dict[key])
