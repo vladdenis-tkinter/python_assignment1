@@ -1,0 +1,19 @@
+1) [] is a list creating
+2) spam.insert(3, "hello")
+3) it`s the value of third element (33 / 11 == 3), 'd'
+4) spam[-1] gives the last element, 'd'
+5) spam[:2] outputs elements form start till the second one, ['a', 'b']
+6) bacon.index('cat') == 1 (only the first appearence)
+7) [3.14, 'cat' ,11, 'cat', True, 99]
+8) only the first 'cat' will be removed from the list
+9) list1 + list2 concatenates values of both lists, 
+   list2 = list1 * 2 replicates list1 two times and assigns final list to variable list2
+10) append() adds value after the last element of the list, while insert(n, x) adds element x at the n-th postition (not necessary the last position)
+11) remove() - to delete some specific item, pop() - to return and delete the last item
+12) string is a list of characters, so we can iterate over string just like over list:
+     for x in list:
+         print(x)       //prints 'x' element of the list
+     for x in string:
+         print (x)      //prints 'x' character of the string
+13) tuples are immutable, means that values can not be changed after assignment, while in list we can change values in any time
+14) 
