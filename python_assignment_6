@@ -1,0 +1,16 @@
+1) escape characters are backslash \ that precedes illegal character, \n, \r, \t. Example: s = "hello, \"world\""
+2) \t makes whitespace in a string, example: print("Hello\tworld") will output "Hello world".
+   \n inserts a new line in a string, print("Hello\nworld") will print "Hello" and "world" in two lines
+3) To include backslash we should use double backslash \\
+4) Single quote should not be escaped if string is surrounded by double quotes
+5) \r makes new line as well
+6) 'Hello, world'[1] = 'e'
+   'Hello, world'[0:5] = 'Hello'
+   'Hello, world'[:5] = 'Hello'
+   'Hello, world'[3:] = 'lo, world'
+7) 'Hello'.upper() = 'HELLO'
+   'Hello'.upper().isupper() = True
+   'Hello'.upper().lower() = 'hello'
+8) The first expression outputs a list, containing all characters between whitespaces: ["Remember,", "remember", "the", "fifth", "of", "July"]
+   The second expression outputs a string with "-" instead of whitespaces: 'There-can-only-one.'
+9) 
