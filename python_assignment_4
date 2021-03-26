@@ -16,4 +16,11 @@
      for x in string:
          print (x)      //prints 'x' character of the string
 13) tuples are immutable, means that values can not be changed after assignment, while in list we can change values in any time
-14) 
+14) t = (42, ). Comma is necessary in case of 1 element in tuple
+15) list = [1,2,3]. 
+    t = tuple(list) - this is a tuple containing list values.
+    
+    t = (1,2,3)
+    list = [x for x in t] - list containig tuple values
+16) These variables can be tuples and sets containig any type of variables including lists. In dictionary list can only be a value, not a key
+17) copy() method copies only first-level variables, while deepcopy() makes copy of all nested objects if any
